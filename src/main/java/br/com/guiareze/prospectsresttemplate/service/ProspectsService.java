@@ -9,5 +9,6 @@ public interface ProspectsService {
 	List<Prospects> findAll();
 	Prospects create(Prospects prospect);
 	Prospects update(String id, Prospects prospect);
+	void delete(String id);
 
 }
